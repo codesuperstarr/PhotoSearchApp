@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/overviewGalleryFragment">
+
+    <fragment
+        android:id="@+id/overviewGalleryFragment"
+        android:name="xyz.divineugorji.photosearchapp.ui.gallery.OverviewGalleryFragment"
+        android:label="overview_gallery"
+        tools:layout="@layout/overview_gallery" />
+</navigation>
